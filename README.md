@@ -89,7 +89,7 @@ cd dsh-dumb-mode
 git init -b main
 git add -A && git commit -m "feat: dsh-dumb-mode 0.1.0"
 # 在 GitHub 新建空仓库 dsh-dumb-mode，然后：
-git remote add origin https://github.com/<你的用户名>/dsh-dumb-mode.git
+git remote add origin https://github.com/crychic-Mortis/dsh-dumb-mode.git
 git push -u origin main
 ```
 
@@ -98,9 +98,9 @@ git push -u origin main
 别人从 GitHub 安装：
 
 ```sh
-dsh plugin --profile desktop add github:<你的用户名>/dsh-dumb-mode
+dsh plugin --profile desktop add github:crychic-Mortis/dsh-dumb-mode
 # 也可以锁分支或标签：
-dsh plugin --profile desktop add github:<你的用户名>/dsh-dumb-mode#v0.1.0
+dsh plugin --profile desktop add github:crychic-Mortis/dsh-dumb-mode#v0.1.0
 ```
 
 安装逻辑等价于 pnpm 从 git 拉包：把仓库克隆进 profile、加依赖 + bundle、应用 `cordis.patch.yml`。要发新版本，改 `version` 后打 tag 再 push。

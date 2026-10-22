@@ -46,7 +46,7 @@
     enabled: false             # 临时关掉
     refuseTasks: true          # 拒绝一切工具调用；设 false 只改文字、恢复干活
     refusalReason: "装傻模式已开启：我不执行任何操作。"
-    refusalPhrases: ["我不知道鸭", "我不会哦", "我不懂鸭"]
+    refusalPhrases: ["我不会这些东西。", "我不知道鸭。", "我不懂鸭。"]
     kaomoji: ["(・_・;)", "(´･ω･`)", "(￣▽￣;)"]   # 随机追加的颜文字，留空数组则不追加
     instruction: ""            # 注入 system prompt 的指令，留空不注入
     rewriteAnswer: true        # 关掉就只改思考

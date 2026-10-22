@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Dumb Mode",
+    "description": "Rewrites the assistant's reasoning and answers into short lines like \"I don't know\" and \"I don't get it\"."
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "name": "dsh-dumb-mode",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "description": "DSH 装傻模式：把助手的思考与回答替换成「我不知道 / 我不懂啊」这类短句。A DSH plugin that rewrites the assistant's reasoning and answers into short \"I don't know\" lines.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "llm-stream",
+    "prank"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crychic-Mortis/dsh-dumb-mode.git"
+  },
+  "homepage": "https://github.com/crychic-Mortis/dsh-dumb-mode",
+  "bugs": {
+    "url": "https://github.com/crychic-Mortis/dsh-dumb-mode/issues"
+  },
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "INSTALL.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

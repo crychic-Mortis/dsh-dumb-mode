@@ -1,0 +1,6 @@
+# dsh-dumb-mode bundle patch: inserts the Host row into the profile's plugin
+# roster. Keep this a pure insert (no config/expression rows) so the plugin
+# manager can hot-mount it without a restart.
+- insert:
+    - id: dsh-dumb-mode
+      name: 'dsh-dumb-mode'
